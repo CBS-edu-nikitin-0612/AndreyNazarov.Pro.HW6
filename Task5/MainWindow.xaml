@@ -1,0 +1,18 @@
+﻿<Window x:Class="Task5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonLoad" Content="Load" HorizontalAlignment="Left" Height="26" Margin="681,10,0,0" VerticalAlignment="Top" Width="109" Click="ButtonLoad_Click"/>
+        <TextBox x:Name="TextBoxPath" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="666" Text="C:\Windows\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll"/>
+        <TextBox x:Name="TextBoxResult" Margin="10,41,124,10" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
+
+    </Grid>
+</Window>
